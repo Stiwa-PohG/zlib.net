@@ -36,6 +36,8 @@
          self-describing, so CS1591 (missing comment) is not enforced. -->
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>zlib.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <!-- Pure managed code, so the modern target can promise trimming and Native AOT compatibility. -->
